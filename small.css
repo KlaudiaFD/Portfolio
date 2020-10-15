@@ -1,0 +1,10 @@
+/*@media (min-width: 576px)*/
+
+.header-img{
+    background-image: url("img/keyboard-5017973_1920.jpg");
+}
+
+.header-text h1{
+    margin-bottom: 5px;
+    font-size: 35px;
+}

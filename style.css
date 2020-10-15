@@ -8,7 +8,7 @@ body {
     font-family: 'Monserrat', sans-serif;
     background-color: rgb(214, 214, 214);
     color: rgb(172, 169, 169);
-    
+
 }
 
 /* html {
@@ -49,40 +49,115 @@ button i {
 
 /* HEADER */
 
-.header-img{
+.header-img {
     position: relative;
-    height: 100vh;
+    height: 350px;
     text-align: center;
-    background-image: url("img/cosmos-1853491_1920.jpg");
+    background-image: url("img/keyboard-5017973_640.jpg");
     background-repeat: no-repeat;
-    background-position:center;
+    background-position: center;
+
 }
 
-.header-bg{
+.header-bg {
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, .68);
 }
 
-.header-text{
+.header-text {
     position: absolute;
-    top:50%;
-    left:50%;
+    top: 50%;
+    left: 50%;
     transform: translate(-50%, -50%);
-    color:rgb(214, 214, 214);
+    color: rgb(214, 214, 214);
     text-shadow: 3px 3px 5px black;
 }
 
-.header-text h1{
+.header-text h1 {
     margin-bottom: 5px;
-    font-size: 35px;
+    font-size: 25px;
 }
 
-.header-text span{
+.header-text span {
     color: rgb(39, 39, 223);
     text-transform: uppercase;
 }
 
-.header-text p{
-    font-size: 30px;
+.header-text p {
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+/*Main*/
+
+.wrapper {
+    margin: 5px;
+    color: black;
+    justify-content: center;
+
+}
+
+#about-me {
+    background-color: rgb(214, 214, 214);
+}
+
+h2 {
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 20px;
+}
+
+.underline {
+    position: relative;
+}
+
+.line {
+    position: absolute;
+    left: calc(50% - 30px);
+    bottom: -5px;
+    width: 60px;
+    height: 3px;
+    background-color: rgb(39, 39, 223);
+
+}
+
+.about-me-text {
+    margin-bottom: 10px;
+}
+
+.about-me-skils p {
+    text-align: center;
+    font-weight: bold;
+}
+
+.about-me-skils ul {
+    margin: 10px;
+    list-style: none;
+}
+
+.about-me-skils ul li {
+    padding: 3px;
+}
+
+.main-project {
+    position: relative;
+    height: 260px;
+    width: 100%;
+    display: inline-block;
+    color: black;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.first-project {
+    background-image: url(img/pro-games.png);
+
+}
+
+.second-project{
+    background-image: url();
 }
