@@ -15,15 +15,15 @@
 <body>
     
     <nav>
-        <div class="nav-mobile">
-            <button><i class="fas fa-bars"></i></button>
+        <div class="nav-mobile" >
+            <button class="hamburger"><i class="fas fa-bars"></i></button>
         </div>
         <div class="nav-desktop">
-            <ul>
-                <li><a href="#"></a>Home</li>
-                <li><a href="#about-me"></a>About Me</li>
-                <li><a href="#projects"></a>Project</li>
-                <li><a href="#contact"></a>Contact</li>
+            <ul class="nav-ul">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#projects">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
     </nav>
@@ -46,16 +46,25 @@
             </div>
             <div class="wrapper">
                 <div class="about-me-text">
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur dolorum, tempore quod sequi quam ducimus praesentium laboriosam sint omnis, quae quidem cupiditate magni, corrupti quaerat voluptatibus corporis earum dolor consequatur?</p>
+                    <p>Jestem front-end developerem z rocznym doświadczeniem. Jestem samoukiem i swoją wiedzę czerpię z kursów na Udemy, tutoriali na YouTube oraz webinarów. Staram się aby moje strony były w pełni responsywne oraz jak najbardziej zoptymalizowane.</p>
+                    <p>Szukam pracy w której będę mogła wykorzystywać zdobytą wiedzę oraz rozwijać się zawodowo.</p>
+                    <p>Zobacz przykłady mojej pracy <a href ="https://github.com/KlaudiaFD" target="_blank">tutaj.</a></p>
+                    <p><a href ="#contact">Skontaktuj się</a> ze mną, jeśli podoba ci się to, co robię.</p>
                 </div>
                 <div class="about-me-skils">
-                    <p>Technologie których używam: </p>
+                    <div class="underline">
+                        <h2>Umiejętności</h2>
+                        <div class="line"></div>
+                    </div>
                     <ul>
-                        <li>HTML</li>
-                        <li>CSS/SASS</li>
-                        <li>Java Script</li>
-                        <li>React ? </li>
-                        <li>Bootstrap ?</li>
+                        <li>HTML5</li>
+                        <li>CSS3/SASS</li>
+                        <li>JavaScript</li>
+                        <li>React w trakcie nauki </li>
+                        <li>Bootstrap </li>
+                        <li>MNP</li>
+                        <li>GIT</li>
+                        <li>Gimp</li>
                     </ul>
                 </div>
             </div>
@@ -69,30 +78,58 @@
             
             <div class="main-project first-project">
                 <div class="project-text">
-                    <h3>nazwa pierwszego projektu</h3>
+                    <h3>ProGamers</h3>
+                    <a href="https://klaudiafd.github.io/RWD_bootstrap/" target="_blank">Na żywo</a>
                 </div>
                 <div class="hero-bg"></div>
             </div>
 
             <div class="main-project second-project">
                 <div class="project-text">
-                    <h3>nazwa drugiego projektu</h3>
+                    <h3>To Do List</h3>
+                    <a href="https://klaudiafd.github.io/ToDoList/" target="_blank">Na żywo</a>
                 </div>
                 <div class="hero-bg"></div>
             </div>
 
             <div class="main-project third-project">
                 <div class="project-text">
-                    <h3>nazwa trzeciego projektu</h3>
+                    <h3>Weather App</h3>
+                    <a href="https://klaudiafd.github.io/WeatherApp/" target="_blank">Na żywo</a>
                 </div>
                 <div class="hero-bg"></div>
             </div>
 
+            <div class="main-project fourth-project">
+                <div class="project-text">
+                    <h3>Portfolio</h3>
+                    <a href="#" target="_blank">Na żywo</a>
+                </div>
+                <div class="hero-bg"></div>
+            </div>
         </section>
 
+        <section id="contact">
+            <div class="underline">
+                <h2>kontakt</h2>
+                <div class="line"></div>
+            </div>
+            <div class="contact">
+                <p><i class="fas fa-phone-volume"></i> 690-225-791</p>
+                <p><i class="far fa-envelope"></i>K.Ossowska94@wp.pl</p>
+            </div>
+            <div class="social-media">
+                <a href="https://www.facebook.com/klaudia.ossowska.1" target="_blank" ><i class="fab fa-facebook-square" target="_blank"></i></a>
+                <a href="https://github.com/KlaudiaFD" target="_blank" ><i class="fab fa-github-square" target="_blank"></i></a>
+                <a href="https://www.linkedin.com/in/klaudia-ossowska-8a90151b3/" target="_blank" ><i class="fab fa-linkedin" target="_blank"></i></a>
+            </div>
+        </section>
     </main>
-
-
+    <footer>
+        <p>&copy 2020 Klaudia Ossowska</p>
+    </footer>
+    
+<script src="main.js"></script>
 
 </body>
 </html>

@@ -8,12 +8,12 @@
     display: block;
 }
 
-.nav-desktop li {
+.nav-desktop ul li {
     list-style: none;
     display: inline-block;
 }
 
-.nav-desktop li a {
+.nav-desktop ul li a {
     padding: 30px;
     text-transform: uppercase;
     text-decoration: none;
@@ -23,5 +23,9 @@
 }
 
 .nav-desktop li a:hover {
-    color: rgb(24, 127, 211);
+    color: rgb(100, 27, 14);
+}
+
+.header-img {
+    background-image: url("img/fiber-4814456_1920.jpg");
 }
