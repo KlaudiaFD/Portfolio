@@ -1,8 +1,7 @@
 const btn=document.querySelector('.hamburger');
-const brg=document.querySelector('.nav-ul')
+const brg=document.querySelector('.nav-desktop')
 
-const showMenu=()=>{
+
+btn.addEventListener('click', () => {
     brg.classList.toggle('show')
-}
-
-btn.addEventListener('click', showMenu);
+});
