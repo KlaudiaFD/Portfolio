@@ -22,24 +22,32 @@ nav {
     position: sticky;
     top: 0;
     z-index: 1;
-    height: 50px;  
+    height: 50px;
     text-align: center;
     line-height: 50px;
     background-color: rgb(45, 45, 46);
 }
 
 
-.hamburger{
+.hamburger {
     position: absolute;
     top: 0;
     left: 0;
-    padding: 10px 30px;
+    margin-left: 15px;
+    padding: 5px 30px;
     font-size: 32px;
     background: none;
-    border:none;
+    border: none;
     cursor: pointer;
-    color:rgb(100, 27, 14);
+    color: rgb(100, 27, 14);
     outline: none;
+    transition: all 0.5s ease-in-out;
+}
+
+.scrollup{
+    width: 10px;
+    height: 10px;
+    color: black;
 }
 
 .nav-desktop {
@@ -47,20 +55,21 @@ nav {
     display: none;
     height: 100%;
     margin-top: 50px;
-    
+
 }
 
-.show{
+.show {
     display: flex;
 }
 
-.nav-ul{
+.nav-ul {
     height: 230px;
+    margin-left: 5px;
     z-index: 2;
     box-shadow: 0 0 6px rgb(206, 51, 51);
 }
 
-li a{
+li a {
     position: relative;
     z-index: 4;
 }
@@ -70,8 +79,9 @@ li a{
     list-style: none;
     text-align: left;
     margin-left: 10px;
-    
+
 }
+
 /* .nav-desktop ul li:first-child{
     margin-top: 40px;
 } */
@@ -309,4 +319,3 @@ footer {
     background-color: rgb(0, 0, 0);
     border-top: 1px solid rgb(73, 73, 73);
 }
-
