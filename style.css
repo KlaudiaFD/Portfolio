@@ -63,11 +63,19 @@ nav {
 }
 
 .nav-ul {
-    height: 230px;
-    margin-left: 5px;
+    height: 600px;
+    width: 300px;
+    margin-left: 10px;
     z-index: 2;
     box-shadow: 0 0 6px rgb(206, 51, 51);
+    background-color: rgb(45, 45, 46);
+    font-size: 45px;
+    
+    
 }
+
+
+
 
 li a {
     position: relative;
@@ -79,7 +87,7 @@ li a {
     list-style: none;
     text-align: left;
     margin-left: 10px;
-
+    margin-top: 70px;
 }
 
 /* .nav-desktop ul li:first-child{
@@ -100,28 +108,6 @@ li a {
 .nav-desktop li a:hover {
     color: rgb(100, 27, 14);
 }
-
-/* @media screen and (max-width: 768px){
-    .nav-ul{
-        display: none;
-    }
-
-    
-
-    .show{
-        display: inline-;
-        
-        width: 100%;
-    }
-
-} */
-
-
-
-
-
-
-
 
 
 
@@ -169,15 +155,11 @@ li a {
 
 /*Main*/
 
-.wrapper {
-    margin: 5px;
-    color: black;
-    justify-content: center;
-
-}
-
 #about-me {
     background-color: rgb(214, 214, 214);
+    color: black;
+    justify-content: center;
+    height: 400px;
 }
 
 h2 {
@@ -190,6 +172,7 @@ h2 {
 
 .underline {
     position: relative;
+    
 }
 
 .line {
@@ -212,19 +195,45 @@ h2 {
 
 }
 
-.about-me-skils p {
+.about-me-text a{
+    color: rgb(100, 27, 14);
+}
+
+#about-me-skils{
+    background-image: url(img/cup-of-coffee-1280537.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 400px;
+    padding: 5px;
+}
+
+
+#about-me-skils h2{
+    color: rgb(214, 214, 214);
+}
+
+#about-me-skils p {
     text-align: center;
     font-weight: bold;
+    
 }
 
-.about-me-skils ul {
-    margin: 10px;
+#about-me-skils ul {
+    margin: -100px;
     list-style: none;
+    /*transition: all 1.5s linear;*/
 }
 
-.about-me-skils ul li {
+/* #about-me-skils ul:hover{
+    transform: translateX(100px);
+} */
+
+#about-me-skils ul li {
     padding: 3px;
+    color: rgb(214, 214, 214);
 }
+
 
 .main-project {
     position: relative;
@@ -286,7 +295,7 @@ h2 {
 }
 
 #contact {
-    line-height: 20px;
+    line-height: 30px;
     text-align: center;
 }
 

@@ -1,5 +1,13 @@
 /*@media (min-width: 768px)*/
 
+h2{
+    font-size: 29px;
+}
+
+p{
+    font-size: 19px;
+}
+
 
  nav{
     display: flex;
@@ -19,6 +27,8 @@
 .nav-desktop ul li {
     list-style: none;
     display: inline-block;
+    font-size: 25px;
+    margin-top: 0;
 }
 
 .nav-desktop {
@@ -27,6 +37,9 @@
 
 .nav-ul{
     box-shadow: none;
+    background: none;
+    font-size: 25px;
+    width: 100%;
 }
 
 .nav-desktop ul li a {
@@ -37,6 +50,7 @@
     font-weight: bold;
     color: rgb(153, 152, 152);
     transition: color 0.5s;
+    
 }
 
 .nav-desktop li a:hover {
@@ -47,3 +61,15 @@
     background-image: url("img/fiber-4814456_1920.jpg");
 }
 
+#about-me-skils ul li {
+    font-size: 19px;
+}
+
+#about-me-skils{
+    height: 350px;
+}
+
+#contact {
+    line-height: 45px;
+    text-align: center;
+}

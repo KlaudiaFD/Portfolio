@@ -1,0 +1,16 @@
+.header-img {
+    background-image: url("img/fiber-4814456_1920.jpg");
+}
+
+.main-project-all{
+    position: relative;
+    text-align: center;
+    
+}
+
+.main-project{
+    height: 500px;
+    width: 600px;
+    
+
+}
