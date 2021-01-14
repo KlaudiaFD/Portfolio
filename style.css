@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Monserrat', sans-serif;
-    background-color: rgb(214, 214, 214);
+    background-color: rgb(228, 227, 227);
     color: rgb(172, 169, 169);
 
 }
@@ -100,7 +100,7 @@ li a {
     text-transform: uppercase;
     text-decoration: none;
     font-weight: bold;
-    color: rgb(153, 152, 152);
+    color: rgb(214, 214, 214);
     transition: color 0.5s;
     z-index: 2;
 }
@@ -118,6 +118,7 @@ li a {
     height: 100vh;
     text-align: center;
     background-image: url("img/fiber-4814456_1920.jpg");
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 
@@ -157,10 +158,12 @@ li a {
 /*Main*/
 
 #about-me {
+    
     background-color: rgb(214, 214, 214);
     color: black;
-    justify-content: center;
+    display: inline;
     height: 400px;
+    width: 70%;
 }
 
 h2 {
@@ -187,8 +190,10 @@ h2 {
 }
 
 .about-me-text {
-    margin-bottom: 10px;
-    padding: 10px;
+    display: flex;
+    margin: 30px 30px 30px 30px;
+    flex-flow: row wrap;
+    justify-content: center;
 }
 
 .about-me-text p {
@@ -201,18 +206,13 @@ h2 {
 }
 
 #about-me-skils{
-    background-image: url(img/cup-of-coffee-1280537.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    opacity: 100;
-    width: 100%;
-    height: 500px;
     padding: 5px;
+    justify-content: center;
 }
 
 
 #about-me-skils h2{
-    color:  rgb(214, 214, 214);
+    color:  black;
 }
 
 #about-me-skils p {
@@ -221,30 +221,74 @@ h2 {
     
 }
 
-/* #about-me-skils ul {
-    margin: 10px;
-    list-style: none;
-    /
+.container-about-my-skills{
+    display: flex;
+    margin: 15px 30px 0px 30px;
+    flex-flow: row wrap;
+    justify-content: center;
 }
 
+.skills-icon{
+    font-size: 55px;
+    padding: 10px;
+    margin-top: 15px;
+}
 
+.fa-html5{
+    color:#e34c26;
+    animation: heartBeat;
+    animation-duration: 1s;
+}
 
-#about-me-skils ul li {
-    padding: 3px;
-    color: rgb(214, 214, 214); 
-}*/
+.fa-angular{
+    color:#e34c26;
+    animation: heartBeat;
+    animation-duration: 1.5s;
+}
 
-.fab{
-    position: relative;
-    height: 30px;
-    width: 100%;
-    display: inline-block;
+.fa-git{
+    color:#e34c26;
+    animation: heartBeat;
+    animation-duration: 1s;
+}
+
+.fa-css3-alt{
+    color:#3a98d1;
+    animation: heartBeat;
+    animation-duration: 2.3s;
+}
+
+.fa-sass{
+    color:#c76495;
+    animation: heartBeat;
+    animation-duration: 2.5s;
+}
+
+.fa-js-square{
+    color:#f0d91d;
+    animation: heartBeat;
+    animation-duration: 2.5s;
+}
+
+.fa-bootstrap{
+    color:#543b79;
+    animation: heartBeat;
+    animation-duration: 2.5s;
+}
+.skills-icon-rwd{
+    color: #2c2c51;
+    animation: heartBeat;
+    animation-duration: 2.3s;
+}
+
+.skills-icon-test{
+    font-size: 17px;
+    color:black;
+    justify-content: center;
     text-align: center;
-    background-position: center;
-    color: rgb(214, 214, 214);
-    font-size: 37px;
-    margin-top: 10px;
+    
 }
+
 
 
 

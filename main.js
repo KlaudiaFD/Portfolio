@@ -14,3 +14,5 @@ btn.addEventListener('click', () => {
 ul.addEventListener('click', ()=>{
     brg.classList.remove('show');
 });
+
+
