@@ -11,10 +11,6 @@ body {
 
 }
 
-/* html {
-    scroll-behavior: smooth;
-} */
-
 /*NAV*/
 
 nav {
@@ -55,7 +51,6 @@ nav {
     display: none;
     height: 100%;
     margin-top: 50px;
-
 }
 
 .show {
@@ -63,23 +58,15 @@ nav {
 }
 
 .nav-ul {
-    height: 400px;
-    width: 300px;
+    height: 300px;
+    width: 220px;
     margin-left: 10px;
     z-index: 2;
     box-shadow: 0 0 6px rgb(206, 51, 51);
     background-color: rgb(45, 45, 46);
-    font-size: 29px;
+    font-size: 20px;
     
     
-}
-
-
-
-
-li a {
-    position: relative;
-    z-index: 4;
 }
 
 .nav-desktop ul li {
@@ -87,12 +74,8 @@ li a {
     list-style: none;
     text-align: left;
     margin-left: 10px;
-    margin-top: 35px;
+    margin-top: 18px;
 }
-
-/* .nav-desktop ul li:first-child{
-    margin-top: 40px;
-} */
 
 .nav-desktop ul li a {
     padding: 5px;
@@ -104,12 +87,6 @@ li a {
     transition: color 0.5s;
     z-index: 2;
 }
-
-.nav-desktop li a:hover {
-    color: rgb(100, 27, 14);
-}
-
-
 
 /* HEADER */
 
@@ -158,7 +135,6 @@ li a {
 /*Main*/
 
 #about-me {
-    
     background-color: rgb(214, 214, 214);
     color: black;
     display: inline;
@@ -190,9 +166,9 @@ h2 {
 }
 
 .about-me-text {
-    display: flex;
+    
     margin: 30px 30px 30px 30px;
-    flex-flow: row wrap;
+    text-align: center;
     justify-content: center;
 }
 
@@ -203,6 +179,8 @@ h2 {
 
 .about-me-text a{
     color: rgb(100, 27, 14);
+    font-weight: bold;
+    text-decoration: none;
 }
 
 #about-me-skils{
@@ -234,51 +212,74 @@ h2 {
     margin-top: 15px;
 }
 
+.hide{
+    opacity: 0;
+}
+.show{
+    opacity: 1;
+}
+
 .fa-html5{
     color:#e34c26;
-    animation: heartBeat;
-    animation-duration: 1s;
+    animation: bounce;
+    animation-duration: 1.8s;
+    animation-iteration-count:9;
 }
 
 .fa-angular{
     color:#e34c26;
-    animation: heartBeat;
-    animation-duration: 1.5s;
+    animation: bounce;
+    animation-duration: 2s;
+    animation-iteration-count:9;
 }
 
 .fa-git{
     color:#e34c26;
-    animation: heartBeat;
-    animation-duration: 1s;
+    animation: bounce;
+    animation-duration: 2.6s;
+    animation-iteration-count:9;
 }
 
 .fa-css3-alt{
     color:#3a98d1;
-    animation: heartBeat;
-    animation-duration: 2.3s;
+    animation: bounce;
+    animation-duration: 2.5s;
+    animation-iteration-count:9;
 }
 
 .fa-sass{
     color:#c76495;
-    animation: heartBeat;
-    animation-duration: 2.5s;
+    animation: bounce;
+    animation-duration: 2.8s;
+    animation-iteration-count:9;
 }
 
 .fa-js-square{
     color:#f0d91d;
-    animation: heartBeat;
-    animation-duration: 2.5s;
+    animation: bounce;
+    animation-duration: 1.9s;
+    animation-iteration-count:9;
 }
 
 .fa-bootstrap{
     color:#543b79;
-    animation: heartBeat;
-    animation-duration: 2.5s;
+    animation: bounce;
+    animation-duration: 2.2s;
+    animation-iteration-count:9;
 }
+
 .skills-icon-rwd{
     color: #2c2c51;
-    animation: heartBeat;
-    animation-duration: 2.3s;
+    animation: bounce;
+    animation-duration: 2.4s;
+    animation-iteration-count:9;
+}
+
+.fa-pen{
+    color:rgb(53, 28, 28);
+    animation: bounce;
+    animation-duration: 1.7s;
+    animation-iteration-count:9;
 }
 
 .skills-icon-test{
@@ -289,9 +290,6 @@ h2 {
     
 }
 
-
-
-
 .main-project {
     position: relative;
     height: 260px;
@@ -300,11 +298,20 @@ h2 {
     color: black;
     background-size: cover;
     background-position: center;
-
 }
 
 .project-space{
     margin:10px;
+    position:absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.project-space .fas{
+    color: rgb(172, 169, 169);
+    font-size: 25px;
+    padding: 20px;
+    transition: color 0.5s;
 }
 
 .hero-bg {
@@ -372,7 +379,7 @@ h2 {
 }
 
 .social-media i {
-    margin: 5px;
+    margin:0px 10px 30px 0px;
     font-size: 40px;
     color: black;
     text-align: center;
@@ -388,4 +395,5 @@ footer {
     font-size: 13px;
     background-color: rgb(0, 0, 0);
     border-top: 1px solid rgb(73, 73, 73);
+    border-radius: 5px;
 }

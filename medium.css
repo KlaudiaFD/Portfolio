@@ -64,9 +64,14 @@ p{
 .skills-icon{
     font-size: 60px;
 }
-/* .skills-icon:hover{
-    text-shadow: 0 1px 0 rgb(14, 11, 11);
-} */
+
+.main-project:hover{
+    box-shadow: -1em 0 0.4em rgb(80, 79, 79);
+}
+
+.project-space .fas:hover{
+    color: rgb(100, 27, 14);
+}
 
 #contact {
     line-height: 45px;
