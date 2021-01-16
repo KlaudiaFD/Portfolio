@@ -114,11 +114,14 @@ nav {
     transform: translate(-50%, -50%);
     color: rgb(100, 27, 14);
     text-shadow: 3px 3px 5px black;
+
 }
 
 .header-text h1 {
     margin-bottom: 5px;
     font-size: 25px;
+    animation: backInDown;
+    animation-duration: 1.3s;
 }
 
 
@@ -131,6 +134,8 @@ nav {
     padding-top: 10px;
     font-size: 20px;
     color: rgb(214, 214, 214);
+    animation: backInLeft;
+    animation-duration: 1.3s;
 }
 
 /*Main*/
