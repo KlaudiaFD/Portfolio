@@ -345,6 +345,10 @@ h2 {
     background-image: url(img/portfolio.png);
 }
 
+.fifth-project{
+    background-image: url(img/notesApp.png);
+}
+
 .project-text {
     position: absolute;
     top: 50%;
