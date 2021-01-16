@@ -112,7 +112,7 @@ nav {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: rgb(214, 214, 214);
+    color: rgb(100, 27, 14);
     text-shadow: 3px 3px 5px black;
 }
 
@@ -123,13 +123,14 @@ nav {
 
 
 .header-text span {
-    color: rgb(100, 27, 14);
+    color: rgb(214, 214, 214);
     text-transform: uppercase;
 }
 
 .header-text p {
     padding-top: 10px;
     font-size: 20px;
+    color: rgb(214, 214, 214);
 }
 
 /*Main*/
@@ -374,7 +375,7 @@ h2 {
 .contact {
 
     color: black;
-    margin: 10px;
+    margin: 0px 0px 0px 5px;
     padding: 5px;
 }
 
@@ -382,8 +383,15 @@ h2 {
     margin: 5px;
 }
 
+.contact a{
+    text-decoration: none;
+    color: black;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
 .social-media i {
-    margin:0px 10px 30px 0px;
+    margin:0px 10px 30px 15px;
     font-size: 40px;
     color: black;
     text-align: center;
