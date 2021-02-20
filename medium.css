@@ -54,11 +54,11 @@ p{
 }
 
 .nav-desktop li a:hover {
-    color: rgb(100, 27, 14);
+    color: rgb(34, 66, 173);
 }
 
 .header-img {
-    background-image: url("img/fiber-4814456_1920.jpg");
+    background-image: url("img/clouds2-449822_1920.jpg");
 }
 
 .skills-icon{
@@ -70,7 +70,7 @@ p{
 }
 
 .project-space .fas:hover{
-    color: rgb(100, 27, 14);
+    color: rgb(34, 66, 173);
 }
 
 #contact {
